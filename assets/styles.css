@@ -138,20 +138,34 @@ header div{
 @media only screen and (max-width: 900px){
     .config-button{
         width: 100%;
-        font-size: 15px;
+        font-size: 12px;
         text-align: center;
     }
 
     .button-s{
-        width: 160px;
+        width: 130px;
     }
 
     .button-o{
-        width: 100px;
+        width: 70px;
     }
 
     .image-gui{
-        height: 330px;
+        width: 140px;
+        height: 240px;
+    }
+
+    .font-big-small{
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .font-big{
+        font-size: 26px
+    }
+
+    #social{
+        padding-top: 30px;
     }
 }
 

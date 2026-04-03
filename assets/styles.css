@@ -147,7 +147,7 @@ header div{
     }
 
     .button-o{
-        width: auto;
+        width: 70px;
     }
 
     .image-gui{
@@ -156,7 +156,7 @@ header div{
     }
 
     .font-big-small{
-        font-size: 25px;
+        font-size: 30px;
         line-height: 1.2;
     }
 

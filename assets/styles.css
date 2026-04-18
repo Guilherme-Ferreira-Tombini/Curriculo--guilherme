@@ -285,6 +285,13 @@ main{
     font-size: 2rem;
 }
 
+.linguages{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 
 /* ............................... */
 @media only screen and (max-width: 900px){

@@ -526,13 +526,26 @@ main{
         padding: 50px;
     }
 
+    .about-me-part1{
+        width: 80%;
+        text-align: center;
+    }
+
+    .about-me-part1 h3{
+       font-size: 1.5rem;
+    }
+
+    .about-me-part1 p{
+        font-size: 1.2rem;
+    }
+
     .about-me-part2{
         width: 100%;
     }
 
-    .about-me-part1{
-        width: 80%;
-        text-align: center;
+    .about-me-part2 p{
+        font-size: 1.17rem;
+        line-height: 25px;
     }
 }
 

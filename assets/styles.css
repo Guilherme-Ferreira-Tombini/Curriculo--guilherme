@@ -429,6 +429,10 @@ main{
 
 
 /* FOOTER */
+footer{
+    width: 100%;
+}
+
 .footer-contacts-and-creator{
     width: 100%;
     display: flex;
@@ -466,6 +470,7 @@ main{
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 /* ............................... */
 @media only screen and (max-width: 900px){
@@ -821,5 +826,22 @@ main{
     .about-me-part2 p{
         font-size: 0.9rem;
         line-height: 19px;
+    }
+
+    .footer-contacts-and-creator{
+        flex-direction: column;
+    }
+
+    .footer-contacts{
+        width: 100%;
+        padding: 50px 0px;
+    }
+
+    .pag-creator{
+        padding: 0px;
+    }
+    
+    .footer-contacts-data{
+        padding-left: 30px;
     }
 }

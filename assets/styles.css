@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    font-size: 16px;
+}
+
 p{
     font-family: roboto, Arial, Helvetica, sans-serif;
 }
@@ -34,13 +38,17 @@ p{
 }
 
 .font-big-small{
-    font-size: 24px
+    font-size: 1.3rem;
 }
 .font-big{
-    font-size: 32px
+    font-size: 2rem;
 }
 
 .white-title{
+    color: #ffffff;
+}
+
+.white-text{
     color: #ffffff;
 }
 /* .............................. */
@@ -65,7 +73,7 @@ header div:first-child{
     gap: 8px;
     margin-top: 20px;
     padding: 0;
-    font-size: 14px;
+    font-size: 0.8rem;
     text-align: center;
 }
 
@@ -88,7 +96,6 @@ header div:first-child{
 .image-gui-display{
     padding: 0;
     display: flex;
-    
 }
 
 .image-gui{
@@ -133,12 +140,298 @@ header div{
 /* ............................... */
 
 
+/* MAIN */
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.direction-spaces{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 60px;
+}
+
+.inovation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inovation-image{
+    width: 50%;
+}
+
+.inovation-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.inovation-text{
+    width: 50%;
+    padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.underscore{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.underscore::after{
+    content: '';
+    display: absolute;
+    width: 20%; 
+    height: 4px; 
+    background-color: #FF9F1A; 
+}
+
+.inovation-text p{
+    padding-top: 20px;
+    font-size: 1.1em;
+    text-align: justify;
+    line-height: 23px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 130px 0px;
+}
+
+.cards div{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 270px;
+    padding: 20px;
+    gap:12px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards div img{
+    width: 50px;
+    height: 50px;
+}
+
+.cards div p{
+    font-size: small;
+}
+
+.information-desk{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-information{
+    width: 35%;
+    padding-left: 60px;
+    padding-right: 20px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-information p{
+    width: 70%;
+    line-height: 27px;
+    text-align: left;
+}
+
+.image-information{
+    width: 65%;
+    height: 450px;
+}
+
+.projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.projects-container{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.projects-container div{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number-orange{
+    font-size: 2rem;
+}
+
+.linguages{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.linguages img{
+    width: 120px;
+    height: 120px;
+}
+
+.linguages .css-img{
+    width: 90px;
+    height: 120px;
+}
+
+.feats{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.container-feats{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap:40px;
+}
+
+.text-feats{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-feats h1{
+    text-align: left;
+}
+
+.imgs-feats{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.three-image-feats{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+}
+
+.three-image-feats div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+}
+
+.img-full-feats{
+    width: 100%;
+    height: 300px;
+}
+
+.img-small-feats{
+    width: 50%;
+    height: 230px;
+}
+
+.one-image-feats{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-image-feats img{
+    width: 270px;
+    height: 550px;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-me-container{
+    width: 60%;
+    padding: 70px;
+}
+
+.organization-about-me{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+.about-me-part1{
+    text-align: right;
+    width: 32%;
+}
+
+.about-me-part1 p {
+    padding-bottom: 6px;
+}
+
+.about-me-part2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 68%;
+    gap:15px;
+}
+
+.about-me-part2 img{
+    width: 200px;
+    height: 240px;
+}
+
+.about-me-part2 p{
+    text-align: left;
+    line-height: 25px;
+}
 
 
+/* ............................... */
 @media only screen and (max-width: 900px){
     .config-button{
         width: 100%;
-        font-size: 12px;
+        font-size: 0.6rem;
         text-align: center;
     }
 
@@ -156,18 +449,106 @@ header div{
     }
 
     .font-big-small{
-        font-size: 30px;
+        font-size: 1.8rem;
         line-height: 1.2;
     }
 
     .font-big{
-        font-size: 26px
+        font-size: 1.5rem;
     }
 
     #social{
         padding-top: 30px;
     }
+
+    .direction-spaces{
+        width: 88%;
+        padding: 60px 0px;
+    }
+
+    .inovation-text h1{
+        font-size: 1.3rem;
+    }
+
+    .inovation-text p{
+        font-size: 0.7rem;
+        line-height: 14px;
+    }
+
+    .cards{
+        padding: 80px 0px;
+    }
+
+    .cards div{
+        width: 180px;
+        padding: 14px;
+    }
+
+    .text-information{
+        padding-left: 50px;
+    }
+
+    .text-information h1{
+        font-size: 1.5rem;
+        
+    }
+
+    .text-information p{
+        width: 98%;
+        font-size: 0.8rem;
+    }
+
+    .imgs-feats{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .three-image-feats{
+        width: 100%;
+    }
+
+    .one-image-feats{
+        width: 100%;
+    }
+
+    .text-feats h1{
+        text-align: left;
+    }
+
+    .organization-about-me{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .about-me-container{
+        width: 70%;
+        padding: 50px;
+    }
+
+    .about-me-part1{
+        width: 80%;
+        text-align: center;
+    }
+
+    .about-me-part1 h3{
+       font-size: 1.5rem;
+    }
+
+    .about-me-part1 p{
+        font-size: 1.2rem;
+    }
+
+    .about-me-part2{
+        width: 100%;
+    }
+
+    .about-me-part2 p{
+        font-size: 1.17rem;
+        line-height: 25px;
+    }
 }
+
 
 @media only screen and (max-width: 600px){
      header{
@@ -220,6 +601,7 @@ header div{
     .button-s{
         width: auto;
     }
+
     .button-o{
         width: auto;
     }
@@ -237,10 +619,167 @@ header div{
     }
 
     .font-big-small{
-        font-size: 20px
+        font-size: 1.25rem;
     }
 
     .font-big{
-        font-size: 24px
+        font-size: 1.5rem;
+    }
+
+    .direction-spaces{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .inovation{
+        flex-direction: column;
+    }
+
+    .inovation-image{
+        width: 100%;
+    }
+
+    .inovation-text{
+        width: 100%;
+        padding: 40px 0px;
+    }
+
+    .inovation-text h1{
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    .inovation-text p{
+        font-size: 1rem;
+        padding: 15px 15px;
+        text-align: center;
+        line-height: 21px;
+    }
+
+    .underscore{
+        align-items: center;
+    }
+
+    .cards{
+        padding: 30px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:15px;
+    }
+
+    .information-desk{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text-information{
+        align-items: center;
+        width: 100%;
+        padding: 60px 0px;
+        gap: 15px;
+    }
+
+    .text-information h1{
+        width: 83%;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    .text-information p{
+        width: 65%;
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    .image-information{
+        width: 100%;
+    }
+
+    .projects{
+        padding: 50px 0px;
+    }
+
+    .projects-container{
+        width: 82%;
+    }
+
+    .number-orange{
+        font-size: 1.6rem;
+    }
+
+    .linguages{
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .linguages img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .linguages .css{
+        width: 80px;
+        height: 100px;
+    }
+
+    .container-feats{
+        width: 100%;
+    }
+
+    .text-feats{
+        align-items: center;
+        text-align: center;
+    }
+
+    .text-feats h1{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .three-image-feats{
+        gap: 5px;
+    }
+
+    .three-image-feats div{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        gap:5px;
+    }
+
+    .img-full-feats{
+        height: 210px;
+    }
+
+    .img-small-feats{
+        width: 100%;
+        height: 360px;
+    }
+
+    .one-image-feats img{
+        width: 240px;
+    }
+
+    .about-me-container{
+        width: 100%;
+        padding: 40px 0px;
+    }
+
+    .about-me-part2{
+        width: 98%;
+        gap: 5px;
+    }
+
+    .about-me-part2 img{
+        width: 190px;
+        height: 180px;
+    }
+
+    .about-me-part2 p{
+        font-size: 0.9rem;
+        line-height: 19px;
     }
 }

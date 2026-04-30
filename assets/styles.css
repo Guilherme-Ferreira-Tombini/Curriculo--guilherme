@@ -425,6 +425,51 @@ main{
     text-align: left;
     line-height: 25px;
 }
+/* ............................... */
+
+
+/* FOOTER */
+footer{
+    width: 100%;
+}
+
+.footer-contacts-and-creator{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-contacts{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 50px;
+    padding: 70px;
+}
+
+.footer-contacts-data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-contacts-data img{
+    width: 30px;
+    height: 30px;
+}
+
+.pag-creator{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 /* ............................... */
@@ -781,5 +826,22 @@ main{
     .about-me-part2 p{
         font-size: 0.9rem;
         line-height: 19px;
+    }
+
+    .footer-contacts-and-creator{
+        flex-direction: column;
+    }
+
+    .footer-contacts{
+        width: 100%;
+        padding: 50px 0px;
+    }
+
+    .pag-creator{
+        padding: 0px;
+    }
+    
+    .footer-contacts-data{
+        padding-left: 30px;
     }
 }
